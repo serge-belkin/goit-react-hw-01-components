@@ -1,0 +1,43 @@
+.friendList {
+  display: block;
+  width: 320px;
+  list-style: none;
+  background-color: #ebdcb2;
+  padding: 5px 0;
+  margin: 25px auto;
+}
+
+.friendListItem {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+  border: 1px solid #af4425;
+  color: #662e1c;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.friendListAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 5px 15px;
+}
+
+.active,
+.inactive {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: block;
+}
+
+.active {
+  background-color: #47af4a;
+}
+
+.inactive {
+  background-color: #fe4f52;
+}
