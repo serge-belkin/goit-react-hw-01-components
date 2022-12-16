@@ -1,0 +1,37 @@
+.transactionHistory {
+  width: 600px;
+  margin: 25px auto;
+}
+
+.header {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.columnTitle {
+  width: 30%;
+  padding: 10px;
+  background-color: #af4425;
+  color: #ebdcb2;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.values {
+  width: 33%;
+  color: #662e1c;
+  background-color: #c9a66b;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.transactionItem:nth-child(odd) {
+background-color: #ebdcb2;
+}
+
+.transactionItem {
+  width: 33%;
+  text-align: center;
+}
